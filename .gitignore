@@ -1,0 +1,6 @@
+.svn
+*~.skp
+*.vcxproj*
+v2/3rdParty/glew/doc/*
+v2/Debug
+*.obj

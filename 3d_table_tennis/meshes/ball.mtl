@@ -1,0 +1,28 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2006 Google, Inc.
+
+newmtl ball
+Ka 0.000000 0.000000 0.000000
+Kd 0.996078 0.992157 0.815686
+Ks 0.330000 0.330000 0.330000
+map_Kd ball\ball.png
+
+newmtl ballStar
+Ka 0.000000 0.000000 0.000000
+Kd 0.721569 0.717647 0.596078
+Ks 0.330000 0.330000 0.330000
+map_Kd ball\ballStar.png
+
+newmtl ballStar1_
+Ka 0.000000 0.000000 0.000000
+Kd 0.721569 0.717647 0.596078
+Ks 0.330000 0.330000 0.330000
+map_Kd ball\ballStar1_.png
+
+newmtl ballStar2_
+Ka 0.000000 0.000000 0.000000
+Kd 0.721569 0.717647 0.596078
+Ks 0.330000 0.330000 0.330000
+map_Kd ball\ballStar2_.png
+

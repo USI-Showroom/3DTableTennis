@@ -1,0 +1,40 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2006 Google, Inc.
+
+newmtl Metal_Aluminum_Anodized
+Ka 0.000000 0.000000 0.000000
+Kd 1 1 1
+Ks 0.330000 0.330000 0.330000
+map_Kd scoreBoard\Metal_Aluminum_Anodized.jpg
+
+newmtl M_0
+Ka 0.000000 0.000000 0.000000
+Kd 0.243137 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+map_Kd scoreBoard\M_0.png
+
+newmtl M_3
+Ka 0.000000 0.000000 0.000000
+Kd 0.215686 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+map_Kd scoreBoard\M_3.png
+
+newmtl M_1
+Ka 0.000000 0.000000 0.000000
+Kd 0.090196 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+map_Kd scoreBoard\M_1.png
+
+newmtl separator
+Ka 0.000000 0.000000 0.000000
+Kd 0.019608 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+map_Kd scoreBoard/separator.png
+
+newmtl M_2
+Ka 0.000000 0.000000 0.000000
+Kd 0.219608 0.000000 0.000000
+Ks 0.330000 0.330000 0.330000
+map_Kd scoreBoard\M_2.png
+

@@ -1,0 +1,55 @@
+how to set up OpenNi + Nite and OpenCV under Visual Studio 2010
+
+
+New Project > Visual C++ > Win32 Console Application
+
+enter a name
+
+select empty project
+
+
+
+
+
+
+
+under solution explorer right-click the project and select properties
+
+
+1.
+Configuration Properties > C/C++ > General
+
+Additional Include Directories:
+
+$(OPEN_NI_INCLUDE);$(XN_NITE_INSTALL_PATH)\Include;C:\OpenCV2.2\include;C:\OpenCV2.2\include\opencv;C:\armadillo-1.1.92\include
+
+
+2.
+Configuration Properties > C/C++ > Preprocessor
+
+Preprocessor Definitions:
+
+ARMA_USE_LAPACK;ARMA_USE_BLAS;
+
+
+
+3.
+Configuration Properties > Linker > General
+
+Additional Library Directories:
+
+$(OPEN_NI_LIB);$(XN_NITE_INSTALL_PATH)\Lib;C:\OpenCV2.2\lib;C:\armadillo-1.1.92\examples\lib_win32
+
+
+4.
+Configuration Properties > Linker > Input
+
+Additional Dependencies:
+
+add the folowwing
+
+lapack_win32_MT.lib;blas_win32_MT.lib;OpenGL32.lib;GLu32.lib;OpenNI.lib;XnVNITE_1_3_1.lib;opencv_core220d.lib;opencv_highgui220d.lib;opencv_video220d.lib;opencv_ml220d.lib;opencv_legacy220d.lib;opencv_imgproc220d.lib
+
+
+4.
+Add "blas_win32_MT.dll" and "lapack_win32_MT.dll" into build directory or on a global visible path
