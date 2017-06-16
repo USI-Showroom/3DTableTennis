@@ -40,6 +40,7 @@ private:
 
 public:
 	static const string projectRoot();
+
 	static const string meshFolder();
 	static const string textureFolder();
 };
