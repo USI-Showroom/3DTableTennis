@@ -2,6 +2,7 @@
 
 * Computer
 * Kinect (v1)
+* Kinect mount (3 pieces)
 * Projector
 * 3D sync material
 * Long dvi cable
