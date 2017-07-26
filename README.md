@@ -20,4 +20,5 @@
 1. Put projectors on top of wooden box
 1. Connect all cables (2 dvi on projector, 1 usb, 1 jack, 3d sync box) and power
 1. Enter the projector menu, under stereo, enable stereoscopic
+1. Boot windows 7 and use the pinpongproject user
 1. Launch 3d table tennis (shortcut on desktop)
