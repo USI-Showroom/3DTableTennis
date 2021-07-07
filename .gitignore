@@ -4,3 +4,19 @@
 v2/3rdParty/glew/doc/*
 v2/Debug
 *.obj
+
+# LaTeX
+*.log
+*.synctex.gz
+*.aux
+*.toc
+*.out
+
+# IDEs
+.idea/
+.vscode/
+
+# System
+Thumbs.db
+desktop.ini
+.DS_Store
