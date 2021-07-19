@@ -5,7 +5,7 @@
 TEMPLATE = app
 TARGET = 3d_table_tennis
 DESTDIR = ./debug
-QT += core gui xml opengl
+QT += core gui xml opengl widgets
 CONFIG += debug console
 DEFINES += ARMA_USE_LAPACK ARMA_USE_BLAS QT_LARGEFILE_SUPPORT QT_DLL QT_OPENGL_LIB QT_HAVE_MMX QT_HAVE_3DNOW QT_HAVE_SSE QT_HAVE_MMXEXT QT_HAVE_SSE2 QT_XML_LIB
 INCLUDEPATH += ../../../../../../armadillo-2.0.1/include \

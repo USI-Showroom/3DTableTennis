@@ -1,4 +1,4 @@
-# Material #
+## Material
 
 * Computer
 * Kinect (v1)
@@ -15,10 +15,32 @@
 * Power switch
 
 
-# Setup #
+## Setup
 
-1. Put projectors on top of wooden box
-1. Connect all cables (2 dvi on projector, 1 usb, 1 jack, 3d sync box) and power
-1. Enter the projector menu, under stereo, enable stereoscopic
-1. Boot windows 7 and use the pinpongproject user
-1. Launch 3d table tennis (shortcut on desktop)
+* Put projectors on top of wooden box
+* Connect all cables (2 dvi on projector, 1 usb, 1 jack, 3d sync box) and power
+* Enter the projector menu, under stereo, enable stereoscopic
+* Boot windows 7 and use the pinpongproject user
+* Launch 3d table tennis (shortcut on desktop)
+
+
+## Building the software
+
+### Method 1 (suggested)
+* Install Visual Studio (the community version is free) to obtain the C++ compiler. Select "Desktop development"
+* Install [vcpkg](https://vcpkg.io/)
+* Install the dependencies: `vcpkg install glew qt5-base qt5-multimedia`
+
+### Method 2
+* Install Visual Studio (the community version is free) to obtain the C++ compiler. Select "Desktop development"
+* Download Qt5 from the [official website](https://www.qt.io/download/). Choose the Open Source version, install it in `C:\`
+* Download OpenCV from their [Sourceforge page](https://sourceforge.net/projects/opencvlibrary/) and extract in `C:\`
+* Set the enviromement variable `QT_PATH` to the installation of Qt (e.g. `C:\Qt\5.15.0\msvc2019_64`)
+* Add the Qt and OpenCV bin folders (e.g. `C:\Qt\5.15.0\msvc2019_64\bin` and `C:\opencv\build\x64\vc15\bin`) to PATH and reboot your machine
+
+
+## Compiling
+* Open the project `.sln` file
+* In Visual Studio, choose "Release" instead of "Debug"
+* Press F7 to compile
+* Run `bin\Release\3d_table_tennis.exe` or click the green play button
