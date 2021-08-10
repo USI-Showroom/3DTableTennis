@@ -9,10 +9,10 @@ CONFIG += qt debug console opengl warn_on #thread no_keywords
 CONFIG -= flat
 
 
-INCLUDEPATH += 	$(KINECTSDK20_DIR)/inc \
-		C:/eigen \
-    		./3rdParty/glew/include \
-    		./src \
+INCLUDEPATH += 	$(KINECTSDK20_DIR)inc \
+        ./3rdParty/glew/include \
+        ./3rdParty \
+        ./src \
 		./src/utils \
 		./src/shader \
 		./src/qt \

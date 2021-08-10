@@ -2,7 +2,6 @@
 *~.skp
 *.vcxproj.user
 v2/3rdParty/glew/doc/*
-v2/Debug
 *.obj
 
 # LaTeX
@@ -11,6 +10,8 @@ v2/Debug
 *.aux
 *.toc
 *.out
+*.fls
+*.fdb_latexmk
 
 # IDEs
 .idea/
@@ -18,9 +19,13 @@ v2/Debug
 .vs/
 
 # Output
-bin/
-debug/
-release/
+3d_table_tennis/Debug/
+3d_table_tennis/Release/
+v2/Debug/
+v2/Release/
+v2/ui_GLRender.h
+v2/ui_ImageInterface.h
+.qmake.stash
 
 # System
 Thumbs.db

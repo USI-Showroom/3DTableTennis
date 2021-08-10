@@ -11,7 +11,7 @@ ScoreBoard::ScoreBoard()
 	currentD2(-1), currentU2(-1)
 {
 
-	std::vector<Material> &mats=mesh.getMaterials();
+	std::vector<Material> mats=mesh.getMaterials();
 
 	for(int i=0;i<mats.size();++i)
 	{

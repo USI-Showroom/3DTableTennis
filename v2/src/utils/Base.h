@@ -30,7 +30,8 @@ Comment:  This file contains all basic definitions.
 
 #define X_RES 640
 #define Y_RES 480
-#define round(x) floor(x+0.5)
+//Commented out to prevent problems with chrono
+//#define round(x) floor(x+0.5)
 
 template<class Interface>
 inline void SafeRelease(Interface *& pInterfaceToRelease)
