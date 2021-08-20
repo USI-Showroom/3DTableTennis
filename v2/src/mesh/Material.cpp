@@ -147,7 +147,7 @@ void Material::draw(unsigned int shaderId)
 	if (texture != NULL)
 		texture->enable();
 	
-	glBindVertexArray(vao);
+	GLEW_GET_FUN(__glewBindVertexArray)(vao);
 	glDrawArrays(GL_TRIANGLES, 0, size);
 
 	if (texture != NULL)
@@ -162,7 +162,7 @@ void Material::draw(unsigned int shaderId)
 			glEnable( GL_BLEND );
 		glCullFace(GL_BACK);
 	}
-	glBindVertexArray(0);
+	GLEW_GET_FUN(__glewBindVertexArray)(0);
 }
 
 const Texture3D *Material::getTexture() const
@@ -214,8 +214,8 @@ void Material::finalizeMaterial()
 		memcpy(verticesData+3*i+5*size, p32Arr(normal), 3*unitSize);
 	}
 	
-	glGenVertexArrays(1, &vao);
-	glBindVertexArray(vao);
+	GLEW_GET_FUN(__glewGenVertexArrays)(1, &vao);
+	GLEW_GET_FUN(__glewBindVertexArray)(vao);
 
 	glGenBuffersARB(1, &verticesVBO);
 	glBindBufferARB(GL_ARRAY_BUFFER, verticesVBO);
@@ -229,7 +229,7 @@ void Material::finalizeMaterial()
 	glEnableClientState(GL_NORMAL_ARRAY);
 	glEnableClientState(GL_VERTEX_ARRAY);
 
-	glBindVertexArray(0);
+	GLEW_GET_FUN(__glewBindVertexArray)(0);
 	glBindBufferARB(GL_ARRAY_BUFFER, 0);
 
 	free(verticesData);

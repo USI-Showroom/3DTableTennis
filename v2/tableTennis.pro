@@ -25,8 +25,8 @@ INCLUDEPATH += 	$(KINECTSDK20_DIR)inc \
 		./QGLViewerSrc/VRender
 		
 
-LIBS += -L$(KINECTSDK20_DIR)/lib/x64 \
-	-LC:/Users/user/Desktop/pingpong/v2/3rdParty/glew/lib/Release/x64 \
+LIBS += -L$(KINECTSDK20_DIR)Lib/x86 \
+	-L3rdParty/glew/lib/Release/Win32 \
    	-lKinect20 \
 	-lglew32 
 

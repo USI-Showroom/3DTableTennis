@@ -1,6 +1,6 @@
 .svn
 *~.skp
-*.vcxproj.user
+*.vcxproj.*
 v2/3rdParty/glew/doc/*
 *.obj
 

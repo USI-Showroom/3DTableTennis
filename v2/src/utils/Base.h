@@ -7,6 +7,8 @@
 
 
 #pragma comment (lib, "d2d1.lib")
+#pragma comment(lib, "opengl32.lib")
+#pragma comment(lib, "glu32.lib")
 /***************************************************************************
 Base.h
 Comment:  This file contains all basic definitions.

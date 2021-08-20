@@ -1,30 +1,15 @@
-## Material
-
-* Computer
-* Kinect (v1)
-* Kinect mount (3 pieces)
-* Projector
-* 3D sync material
-* 2 long dvi cable
-* Mouse keyboard + usb connector
-* Wooden box
-* Glasses
-* Glasses chargers
-* Paddle
-* Speakers
-* Power switch
+## What is this repository for?
+A 3D table tennis software, developed by Teseo Schneider.
 
 
-## Setup
+## How do I get set up?
+You need (Windows only):
 
-* Put projectors on top of wooden box
-* Connect all cables (2 dvi on projector, 1 usb, 1 jack, 3d sync box) and power
-* Enter the projector menu, under stereo, enable stereoscopic
-* Boot windows 7 and use the pinpongproject user
-* Launch 3d table tennis (shortcut on desktop)
+* C++ compiler
+* Qt5
+* OpenCV
+* Kinect SDK v2
 
-
-## Building the software
 
 ### Method 1 (suggested)
 * Install Visual Studio (the community version is free) to obtain the C++ compiler. Select "Desktop development"
@@ -40,13 +25,13 @@
 
 
 ## Compiling
-* Open the project `.sln` file
+* Open the `tableTennis.sln` file from the `v2` folder
 * In Visual Studio, choose "Release" instead of "Debug"
 * Under "Build" choose "Build solution"
-* Run `bin\Release\3d_table_tennis.exe`
+* Plug the Kinect in and run `bin\Release\tableTennis.exe`
 
 Note: if you get errors about certain DLLs, delete those in the `bin\Release` folder and
-run `windeployqt 3d_table_tennis.exe` in there
+run `windeployqt tableTennis.exe` in there
 
 
 ## Run @ USI
