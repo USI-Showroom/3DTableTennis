@@ -72,11 +72,11 @@ public:
 
     void retranslateUi(QMainWindow *GLRender)
     {
-        GLRender->setWindowTitle(QApplication::translate("GLRender", "MainWindow", 0, QApplication::UnicodeUTF8));
-        actionLoad->setText(QApplication::translate("GLRender", "Load", 0, QApplication::UnicodeUTF8));
-        actionSave->setText(QApplication::translate("GLRender", "Save", 0, QApplication::UnicodeUTF8));
-        actionExit->setText(QApplication::translate("GLRender", "Exit", 0, QApplication::UnicodeUTF8));
-        menuFile->setTitle(QApplication::translate("GLRender", "File", 0, QApplication::UnicodeUTF8));
+        GLRender->setWindowTitle(QApplication::translate("GLRender", "MainWindow", 0));
+        actionLoad->setText(QApplication::translate("GLRender", "Load", 0));
+        actionSave->setText(QApplication::translate("GLRender", "Save", 0));
+        actionExit->setText(QApplication::translate("GLRender", "Exit", 0));
+        menuFile->setTitle(QApplication::translate("GLRender", "File", 0));
     } // retranslateUi
 
 };

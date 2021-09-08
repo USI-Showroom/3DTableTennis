@@ -17,6 +17,7 @@
 .vs/
 
 # Output
+bin/
 v2/Debug/
 v2/Release/
 v2/ui_GLRender.h
