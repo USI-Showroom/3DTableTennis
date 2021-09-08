@@ -1,8 +1,6 @@
 .svn
 *~.skp
 *.vcxproj.*
-v2/3rdParty/glew/doc/*
-*.obj
 
 # LaTeX
 *.log
@@ -19,8 +17,6 @@ v2/3rdParty/glew/doc/*
 .vs/
 
 # Output
-3d_table_tennis/Debug/
-3d_table_tennis/Release/
 v2/Debug/
 v2/Release/
 v2/ui_GLRender.h
