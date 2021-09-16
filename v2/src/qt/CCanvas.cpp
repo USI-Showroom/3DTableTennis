@@ -4,7 +4,7 @@
 #ifdef SHOW_BEHIND
 static const bool	WINDOW_FULLSCREEN = false;
 #else
-static const bool	WINDOW_FULLSCREEN = false;
+static const bool	WINDOW_FULLSCREEN = true;
 #endif
 using namespace std;
 
