@@ -1,3 +1,5 @@
+# Warning: this project is deprecated (aka broken)
+
 ## What is this repository for?
 A 3D table tennis software, developed by Teseo Schneider. There are two versions of the software:
 * the v1, which is in the root folder and runs with the Kinect 1 (the "old" one)
